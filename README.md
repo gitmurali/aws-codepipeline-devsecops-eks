@@ -9,6 +9,8 @@ It also emphasizes on how to monitor and manage the entire lifecycle of a Java a
 
 ### High Level Architecture:
 
+![Alt text](./devSecOps.png?raw=true "Architecture")
+
 1. Developer will update the Java application code in the base branch of the AWS CodeCommit repository, creating a Pull Reqeust (PR).
 
 2. Amazon CodeGuru Reviewer automatically reviews the code as soon as a PR is submitted and does a analysis of java code as per the best practices and gives recommendations to users.
@@ -34,3 +36,4 @@ It also emphasizes on how to monitor and manage the entire lifecycle of a Java a
 12. The Docker image is deployed to Amazon EKS as a container workload (pod) using Helm charts. 
 
 13. The application pod is configured with Amazon CodeGuru Profiler Agent which will send the profiling data of the application (CPU, Heap usage, Latency) to Amazon CodeGuru Profiler which is useful for developers to understand the behaviour of the application.
+
