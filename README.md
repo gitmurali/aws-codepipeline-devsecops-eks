@@ -9,7 +9,7 @@ It also emphasizes on how to monitor and manage the entire lifecycle of a Java a
 
 ### High Level Architecture:
 
-![Alt text](./devSecOps.png?raw=true "Architecture")
+![Alt text](./aws-devsecops.gif?raw=true "Architecture")
 
 1. Developer will update the Java application code in the base branch of the AWS CodeCommit repository, creating a Pull Reqeust (PR).
 
