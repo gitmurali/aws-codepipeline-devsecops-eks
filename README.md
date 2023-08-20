@@ -1,4 +1,4 @@
-# Automatically build and deploy a Java application to Amazon EKS using a DevSecOps CI/CD pipeline
+# Build and deploy a Java application to Amazon EKS using a DevSecOps CI/CD pipeline
 
 ### Overview:
 Create a continuous integration and continuous delivery (CI/CD) pipeline that automatically builds and deploys a Java application to an Amazon Elastic Kubernetes Service (Amazon EKS) cluster on the Amazon Web Services (AWS) Cloud. This pattern uses a greeting application developed with a Spring Boot Java framework and that uses Apache Maven.
